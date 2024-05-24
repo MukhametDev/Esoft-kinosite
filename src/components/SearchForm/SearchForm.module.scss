@@ -1,0 +1,43 @@
+.input {
+  min-width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form:not(:last-child) {
+  margin-bottom: 20px;
+}
+.btn {
+  text-align: center;
+  border: none;
+  background-color: rgb(45, 143, 0);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(24, 75, 0);
+  transform: translateY(-2px);
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  text-align: center;
+  font-size: 30px;
+}

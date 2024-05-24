@@ -1,0 +1,25 @@
+.block {
+  padding: 10px;
+  max-height: 50%; /* Ограничиваем высоту списка */
+  overflow-y: auto; /* Добавляем прокрутку, если контент превышает высоту */
+  overflow-x: hidden; /* Убираем горизонтальную прокрутку */
+  box-sizing: border-box; /* Учитываем паддинги и бордеры в ширине */
+}
+
+.title {
+  font-size: 18px; /* Уменьшаем размер текста */
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more {
+  padding: 5px 0;
+  font-style: italic;
+  color: gray;
+  font-size: 14px; /* Уменьшаем размер текста */
+}

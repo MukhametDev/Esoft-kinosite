@@ -1,0 +1,12 @@
+.title {
+  font-size: 30px;
+}
+
+.title:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.swiper {
+  // display: block;
+  // flex-direction: column;
+}

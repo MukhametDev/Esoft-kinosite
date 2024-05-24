@@ -1,0 +1,22 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  color: gray;
+  font-size: 25px;
+  span {
+    font-size: 18px;
+  }
+}
+
+.message {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.date {
+  align-self: flex-end;
+}
