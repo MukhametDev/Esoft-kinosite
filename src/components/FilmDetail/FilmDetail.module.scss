@@ -1,0 +1,49 @@
+.film {
+  display: flex;
+  gap: 30px;
+}
+
+.img {
+  //   flex: 0 0 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  //   gap: 30px;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.actors {
+  font-size: 18px;
+}
+
+.country {
+  font-size: 18px;
+  span {
+    font-size: 25px;
+  }
+}
+
+.actor {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.genre {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.rate {
+  margin: 0px 10px 0px auto;
+}

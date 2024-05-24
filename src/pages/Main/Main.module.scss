@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 80% 20%;
+  //   height: 100vh;
+  gap: 20px;
+}
+
+.content {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  //   overflow: hidden; /* Убедитесь, что контент не прокручивается */
+}
+
+.sidebar {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  overflow-y: auto;
+}

@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%; /* Убедимся, что карточка занимает всю доступную ширину */
+  box-sizing: border-box; /* Учитываем паддинги и бордеры в ширине */
+  overflow: hidden; /* Убираем возможность появления скролла */
+  padding: 10px; /* Добавляем паддинги для внутреннего отступа */
+}
+
+.img {
+  width: 100px; /* Уменьшаем размер изображения */
+  height: 130px; /* Пропорционально уменьшаем высоту изображения */
+  object-fit: cover; /* Сохраняем пропорции изображения */
+  border-radius: 5px; /* Добавляем скругление углов */
+}
+
+.title {
+  font-size: 14px; /* Уменьшаем размер текста */
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center; /* Центрируем текст */
+  word-wrap: break-word; /* Переносим длинные слова */
+}
+
+.title:hover {
+  color: rgb(86, 1, 86);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
